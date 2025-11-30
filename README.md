@@ -53,8 +53,6 @@ AvukatGPT_Training/
 ### Large File Storage
 
 This repository uses **Git LFS (Large File Storage)** for files larger than 50MB:
-- All `.jsonl` files are tracked via Git LFS
-- All `.md` files are tracked via Git LFS
 - Large training files are stored efficiently
 
 ### Usage
@@ -178,12 +176,6 @@ Bu depo, 50MB'dan büyük dosyalar için **Git LFS (Large File Storage)** kullan
 # Depoyu klonlayın
 git clone https://github.com/ibrahimsugun/AvukatGPT_Training.git
 cd AvukatGPT_Training
-
-# Git LFS'i başlatın (henüz yapılmadıysa)
-git lfs install
-
-# LFS dosyalarını çekin
-git lfs pull
 ```
 
 ### Katkıda Bulunma
@@ -193,36 +185,6 @@ Bu bir eğitim veri seti deposudur. Sorunlar veya katkılar için lütfen bir is
 ### Lisans
 
 [Lisansınızı buraya belirtin]
-
----
-
-## Not: Git Force Push Hakkında
-
-### Why Force Push Was Used / Neden Force Push Kullanıldı
-
-This repository required `git push --force` because we needed to rewrite Git history to remove large files that exceeded GitHub's 100MB limit. Here's what happened:
-
-Bu depo, GitHub'ın 100MB limitini aşan büyük dosyaları kaldırmak için Git geçmişini yeniden yazmak gerektiğinden `git push --force` gerektirdi. İşte olanlar:
-
-1. **Problem**: Large files (556MB+) were committed to Git history
-   **Sorun**: Büyük dosyalar (556MB+) Git geçmişine commit edilmişti
-
-2. **Solution**: Used `git filter-branch` to remove large files from entire Git history
-   **Çözüm**: Tüm Git geçmişinden büyük dosyaları kaldırmak için `git filter-branch` kullanıldı
-
-3. **Result**: Git history was rewritten, requiring force push to update remote
-   **Sonuç**: Git geçmişi yeniden yazıldı, uzak depoyu güncellemek için force push gerekti
-
-**Is it safe? / Güvenli mi?**
-- ✅ **Yes, in this case**: This is a training dataset repository, not a collaborative codebase
-- ✅ **Evet, bu durumda**: Bu bir eğitim veri seti deposu, işbirlikçi bir kod tabanı değil
-- ✅ Large files are now properly managed with Git LFS
-- ✅ Büyük dosyalar artık Git LFS ile düzgün yönetiliyor
-
-**For future commits**: Normal `git push` is sufficient - force push is no longer needed.
-**Gelecek commit'ler için**: Normal `git push` yeterli - artık force push gerekmiyor.
-
-
 
 
 version https://git-lfs.github.com/spec/v1
