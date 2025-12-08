@@ -8,7 +8,7 @@
 
 ### Overview
 
-This repository contains training datasets for **AvukatGPT**, a legal AI assistant specialized in Turkish law. The dataset includes comprehensive legal materials, case law, and legal documentation formatted for both fine-tuning and RAG (Retrieval Augmented Generation) applications.
+This repository contains training datasets for **YASAMASA**, a legal AI assistant specialized in Turkish law. The dataset includes comprehensive legal materials, case law, and legal documentation formatted for both fine-tuning and RAG (Retrieval Augmented Generation) applications.
 
 ### Repository Structure
 
@@ -102,7 +102,7 @@ This is a training dataset repository. For issues or contributions, please open 
 
 ### Genel Bakış
 
-Bu depo, Türk hukuku konusunda uzmanlaşmış bir yasal AI asistanı olan **AvukatGPT** için eğitim veri setlerini içermektedir. Veri seti, hem fine-tuning hem de RAG (Retrieval Augmented Generation) uygulamaları için formatlanmış kapsamlı yasal materyaller, içtihat hukuku ve yasal dokümantasyon içerir.
+Bu depo, Türk hukuku konusunda uzmanlaşmış bir yasal AI asistanı olan **YASAMASA** için eğitim veri setlerini içermektedir. Veri seti, hem fine-tuning hem de RAG (Retrieval Augmented Generation) uygulamaları için formatlanmış kapsamlı yasal materyaller, içtihat hukuku ve yasal dokümantasyon içerir.
 
 ### Depo Yapısı
 
