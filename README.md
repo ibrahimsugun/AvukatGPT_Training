@@ -1,4 +1,4 @@
-# AvukatGPT Training Dataset
+# AvukatGPT/YASAMASA Training Dataset
 
 [English](#english) | [Türkçe](#türkçe)
 
