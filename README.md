@@ -184,7 +184,7 @@ Bu bir eğitim veri seti deposudur. Sorunlar veya katkılar için lütfen bir is
 
 ### Lisans
 
-[Lisansınızı buraya belirtin]
+MIT
 
 
 version https://git-lfs.github.com/spec/v1
